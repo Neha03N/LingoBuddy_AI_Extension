@@ -35,7 +35,7 @@ function toggleLoading(show) {
 
 function callAPI(action, text) {
   const apiUrl = "https://api-inference.huggingface.co/models";
-  const apiKey = "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"; 
+  const apiKey = ""; API_KEY
 
   let model, payload;
 
