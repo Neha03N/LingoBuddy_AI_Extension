@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Learn AI",
+  "version": "1.0",
+  "description": "Turn any webpage into a learning tool with Summarization, Rewrite, and define options.",
+  "permissions": ["activeTab", "contextMenus", "scripting", "notifications"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
